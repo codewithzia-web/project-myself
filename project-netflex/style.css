@@ -14,7 +14,7 @@ body {
 .main {
     background-image: url(assiets/images/PK-en-20260831-TRIFECTA-perspective_bc9a7950-8249-46a3-98ef-0d84d7eb0abf_large.jpg);
     width: 100vw;
-    max-width: 2000px;
+    max-width: 1500px;
     height: 80vh;
     /* background-position: center center; */
     background-size: cover;
@@ -24,7 +24,8 @@ body {
 .main .box {
     background-color: #010101;
     opacity: 0.44;
-    width: 100%;
+    max-width: 1500px;
+    width: 100Vw;
     height: 80vh;
     position: absolute;
     top: 0;
@@ -467,719 +468,84 @@ footer>h2 {
     margin: 10px;
 }
 
-@media screen and (max-width: 400px) {
-
-    nav {
-        width: 92%;
+@media screen and (max-width:500px) {
+    bady{
+        background-color: #B20710;
     }
-    
-    nav svg {
-        width: 105px;
-    }
-    
-    nav button {
-        width: 65px;
-        font-size: 11px;
-    }
-    
-    .main {
-        min-height: 65vh;
-    }
-    
-    .hero {
-        width: 92%;
-        min-height: calc(65vh - 60px);
-        margin: 20px;
-    }
-    
-    .hero > :nth-child(1) {
-        font-size: 28px;
-    }
-    
-    .hero > :nth-child(2) {
-        font-size: 14px;
-    }
-    
-    .hero > :nth-child(3) {
-        font-size: 12px;
-    }
-    
-    .input input {
-        font-size: 14px;
-    }
-    
-    .input button {
-        font-size: 16px;
-        margin-top: 5px;
-    }
-    
-    .img-box .movie-img,
-    .movie-img img {
-        width: 120px;
-        height: 175px;
-        flex-direction: column;
-    }
-    
-    .movie-img .number {
-        font-size: 48px;
-    }
-    
-    .question {
-        grid-template-columns: 1fr;
-    }
-    
-    .freq .cost {
-        font-size: 14px;
-        min-height: 60px;
-    }
-    
-    }
-   
-    
-
-    
-    @media screen and (min-width: 601px) and (max-width: 767px) {
-    
-    .main {
-        min-height: 70vh;
-    }
-    
-    nav {
-        width: 90%;
-        height: 60px;
-    }
-    
-    nav svg {
-        width: 125px;
-    }
-    
-    .hero {
-        width: 90%;
-        min-height: calc(70vh - 60px);
-    }
-    
-    .hero > :nth-child(1) {
-        font-size: 36px;
-        line-height: 1.2;
-    }
-    
-    .hero > :nth-child(2) {
-        font-size: 16px;
-    }
-    
-    .hero > :nth-child(3) {
-        font-size: 14px;
-    }
-    
-    .input {
-        flex-direction: column;
-    }
-    
-    .input input,
-    .input button {
+    nav{
         width: 80%;
-        max-width: 450px;
+
     }
-    
-    .img-box {
-        width: 94%;
-        overflow-x: auto;
+    nav> svg{
+        width:5px; 
     }
-    
-    .img-box .movie-img,
-    .movie-img img {
-        width: 135px;
-        height: 195px;
+    .main{
+        width: 500px;
+        height: 550px;
+        background-repeat: no-repeat;
+        background-size: fill;
     }
-    
-    .text {
-        width: 92%;
+    .main> .box{
+        width: 500px;
+        height: 550px;
     }
-    
-    .boxes {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .text .box {
-        min-height: 220px;
-    }
-    
-    .freq {
-        width: 92%;
-    }
-    
-    .freq .cost {
-        font-size: 17px;
-    }
-    
-    .question {
-        width: 92%;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-    }
-    
-    
-    
-    @media screen and (min-width: 481px) and (max-width: 600px) {
-    
-    .main {
-        min-height: 68vh;
-    }
-    
-    nav {
-        width: 92%;
-    }
-    
-    nav svg {
-        width: 115px;
-    }
-    
-    nav button {
-        width: 70px;
-        font-size: 12px;
-    }
-    
-    .hero {
-        width: 90%;
-        min-height: calc(68vh - 60px);
-    }
-    
-    .hero > :nth-child(1) {
-        font-size: 32px;
-    }
-    
-    .hero > :nth-child(2) {
-        font-size: 15px;
-    }
-    
-    .hero > :nth-child(3) {
-        font-size: 13px;
-    }
-    
-    .input {
-        flex-direction: column;
-    }
-    
-    .input input,
-    .input button {
-        width: 90%;
-    }
-    
-    .input input {
-        height: 48px;
-        font-size: 14px;
-    }
-    
-    .input button {
-        height: 48px;
-        font-size: 17px;
-    }
-    
-    h1 {
-        width: 92%;
-        font-size: 21px;
-    }
-    
-    .img-box {
-        width: 94%;
-        min-height: 270px;
-        overflow-x: auto;
-    }
-    
-    .img-box .movie-img,
-    .movie-img img {
-        width: 125px;
-        height: 180px;
-    }
-    
-    .movie-img .number {
-        font-size: 50px;
-    }
-    
-    .text {
-        width: 92%;
-    }
-    
-    .text > h2 {
-        font-size: 21px;
-    }
-    
-    .boxes {
+    .hero{
+        height: 150px;
+        width: 400px;
+        margin: 10px auto;
+        display: grid;
         grid-template-columns: 1fr;
     }
-    
-    .text .box {
-        min-height: 190px;
+    .hero> span{
+        font-size: 5px;
+        font-weight: 0;
     }
-    
-    .freq {
-        width: 92%;
-        padding: 5px;
+    .input button{
+        margin-left: 70px;
     }
-    
-    .freq .cost {
-        min-height: 60px;
-        font-size: 15px;
-        padding: 12px;
+    h1{
+        margin: 10px 15px;
     }
-    
-    .question {
-        width: 92%;
-        grid-template-columns: repeat(2, 1fr);
+    .img-box{
+        width: 70%;
+        margin: 0px 0px;
     }
-    
+    .img-box .movie-img {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
     }
-    
-    
-    
-    @media screen and (min-width: 401px) and (max-width: 480px) {
-    
-    .main {
-        min-height: 67vh;
-    }
-    
-    nav {
-        width: 92%;
-        height: 60px;
-    }
-    
-    nav svg {
-        width: 110px;
-    }
-    
-    nav button {
-        width: 68px;
-        height: 28px;
-        font-size: 11px;
-    }
-    
-    .hero {
-        width: 92%;
-        min-height: calc(67vh - 60px);
-    }
-    
-    .hero > :nth-child(1) {
-        font-size: 29px;
-        line-height: 1.2;
-    }
-    
-    .hero > :nth-child(2) {
-        font-size: 14px;
-    }
-    
-    .hero > :nth-child(3) {
-        font-size: 12px;
-    }
-    
-    .input {
-        flex-direction: column;
-        width: 100%;
-    }
-    
-    .input input,
-    .input button {
-        width: 95%;
-    }
-    
-    .input input {
-        height: 46px;
-        font-size: 14px;
-    }
-    
-    .input button {
-        height: 46px;
-        font-size: 16px;
-    }
-    
-    h1 {
-        width: 92%;
-        font-size: 20px;
-    }
-    
-    .img-box {
-        width: 96%;
-        padding: 8px;
-        overflow-x: auto;
-    }
-    
-    .img-box .movie-img,
-    .movie-img img {
-        width: 115px;
-        height: 165px;
-    }
-    
-    .movie-img .number {
-        font-size: 45px;
-        left: -10px;
-    }
-    
-    .img-box > svg {
-        width: 45px;
-        height: 80px;
-    }
-    
-    .text {
-        width: 92%;
-        padding: 5px;
-    }
-    
-    .text > h2 {
-        font-size: 20px;
-    }
-    
-    .boxes {
-        grid-template-columns: 1fr;
-    }
-    
-    .text .box {
-        min-height: 180px;
-        padding: 15px 10px;
-    }
-    
-    .text .box h3 {
-        font-size: 18px;
-    }
-    
-    .text .box p {
-        font-size: 14px;
-    }
-    
-    .freq {
-        width: 92%;
-        padding: 5px;
-    }
-    
-    .freq > h2 {
-        font-size: 20px;
-    }
-    
-    .freq .cost {
-        min-height: 58px;
-        font-size: 14px;
-        padding: 12px;
-    }
-    
-    .question {
-        width: 92%;
-        grid-template-columns: 1fr 1fr;
-        gap: 8px;
-    }
-    
-    .question a {
-        font-size: 13px;
-    }
-    
-    footer > h2 {
-        width: 92%;
-        font-size: 14px;
-    }
-    
-    .foot {
-        width: 92%;
-    }
-    
-    }
-    
-    
-    @media screen and (max-width: 400px) {
-    
-    .main {
-        min-height: 65vh;
-    }
-    
-    nav {
-        width: 94%;
-        height: 55px;
-    }
-    
-    nav svg {
+    .img-box ,.movie-img{
+        height: 200px;
         width: 100px;
     }
-    
-    nav button {
-        width: 62px;
-        height: 27px;
-        font-size: 10px;
-        padding: 3px;
+    .movie-img img{
+        width: 200px;
+        height: 200px;
     }
-    
-    .hero {
-        width: 94%;
-        min-height: calc(65vh - 55px);
-        gap: 6px;
+    .text> h2{
+        margin: 15px 0px;
     }
-    
-    .hero > :nth-child(1) {
-        font-size: 26px;
-        line-height: 1.15;
-    }
-    
-    .hero > :nth-child(2) {
-        font-size: 13px;
-    }
-    
-    .hero > :nth-child(3) {
-        font-size: 11px;
-    }
-    
-    .input {
-        flex-direction: column;
-        gap: 6px;
-    }
-    
-    .input input,
-    .input button {
-        width: 100%;
-    }
-    
-    .input input {
-        height: 44px;
-        font-size: 13px;
-        padding: 8px;
-    }
-    
-    .input button {
-        height: 44px;
-        font-size: 15px;
-    }
-    
-    h1 {
-        width: 94%;
-        font-size: 18px;
-        margin-top: 15px;
-    }
-    
-    .img-box {
-        width: 96%;
-        min-height: 245px;
-        padding: 5px;
-        overflow-x: auto;
-    }
-    
-    .img-box .movie-img,
-    .movie-img img {
-        width: 100px;
-        height: 145px;
-    }
-    
-    .movie-img .number {
-        font-size: 40px;
-        left: -8px;
-    }
-    
-    .img-box > svg {
-        width: 40px;
-        height: 70px;
-    }
-    
-    .text {
-        width: 94%;
-        padding: 5px;
-    }
-    
-    .text > h2 {
-        font-size: 18px;
-    }
-    
-    .boxes {
+    .boxes{
+        display: grid;
         grid-template-columns: 1fr;
-        gap: 8px;
+        margin: 10px;
+    }
+    .freq{
+        width: 525px;
+        height: 400px;
+        margin: 0px 15px;
     }
     
-    .text .box {
-        min-height: 170px;
-        padding: 12px 8px;
+    }
+    .question a{
+        display: grid;
+        grid-template-columns: 1fr ;
     }
     
-    .box1 :nth-child(1),
-    .box2 :nth-child(1),
-    .box3 :nth-child(1),
-    .box4 :nth-child(1) {
-        font-size: 17px;
-        margin: 5px;
-    }
-    
-    .box1 :nth-child(2),
-    .box2 :nth-child(2),
-    .box3 :nth-child(2),
-    .box4 :nth-child(2) {
-        font-size: 13px;
-    }
-    
-    .freq {
-        width: 94%;
-        margin-top: 25px;
-        padding: 3px;
-    }
-    
-    .freq > h2 {
-        font-size: 18px;
-    }
-    
-    .freq .cost {
-        min-height: 55px;
-        font-size: 13px;
+    .foot{
+        width: 100%;
         padding: 10px;
-    }
-    
-    .question {
-        width: 94%;
-        grid-template-columns: 1fr;
-        gap: 5px;
-    }
-    
-    .question a {
-        font-size: 12px;
-    }
-    
-    footer > h2 {
-        width: 94%;
-        font-size: 13px;
-    }
-    
-    .foot {
-        width: 94%;
-    }
-    
-    .foot > button {
-        width: 100px;
-        height: 32px;
-        font-size: 13px;
-    }
-    
-    }
-    
-    
-    
-    @media screen and (max-width: 319px) {
-    
-    .main {
-        min-height: 70vh;
-    }
-    
-    nav {
-        width: 95%;
-    }
-    
-    nav svg {
-        width: 90px;
-    }
-    
-    nav button {
-        width: 58px;
-        font-size: 9px;
-    }
-    
-    .hero {
-        width: 95%;
-    }
-    
-    .hero > :nth-child(1) {
-        font-size: 23px;
-    }
-    
-    .hero > :nth-child(2) {
-        font-size: 12px;
-    }
-    
-    .hero > :nth-child(3) {
-        font-size: 10px;
-    }
-    
-    .input input,
-    .input button {
-        width: 100%;
-    }
-    
-    .img-box .movie-img,
-    .movie-img img {
-        width: 90px;
-        height: 130px;
-    }
-    
-    .movie-img .number {
-        font-size: 35px;
-    }
-    
-    .text .box {
-        min-height: 160px;
-    }
-    
-    .freq .cost {
-        font-size: 12px;
-    }
-    
-    .question {
+        display: grid;
         grid-template-columns: 1fr;
     }
-    
-    }
-    
-    
-    
-    @media screen and (max-height: 500px) and (orientation: landscape) {
-    
-    .main {
-        min-height: 100vh;
-    }
-    
-    nav {
-        height: 55px;
-    }
-    
-    .hero {
-        min-height: calc(100vh - 55px);
-        padding: 20px 0;
-    }
-    
-    .hero > :nth-child(1) {
-        font-size: 30px;
-    }
-    
-    .hero > :nth-child(2) {
-        font-size: 14px;
-    }
-    
-    .hero > :nth-child(3) {
-        font-size: 12px;
-    }
-    
-    .input {
-        flex-direction: row;
-    }
-    
-    .input input {
-        width: 50%;
-        height: 42px;
-    }
-    
-    .input button {
-        width: 150px;
-        height: 42px;
-        font-size: 15px;
-    }
-    
-    }
-    
-    
-    
-    @media (hover: none) and (pointer: coarse) {
-    
-    nav button:hover,
-    .input button:hover,
-    .freq .cost:hover,
-    .movie-img img:hover {
-        cursor: default;
-        transform: none;
-    }
-    
-    .img-box {
-        scrollbar-width: none;
-    }
-    
-    .img-box::-webkit-scrollbar {
-        display: none;
-    }
-    
-    }
+}
