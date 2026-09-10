@@ -519,33 +519,56 @@ footer>h2 {
         width: 100px;
     }
     .movie-img img{
-        width: 200px;
+        width: 100px;
         height: 200px;
+        overflow: hidden;
+    }
+    .movie-img .number{
+        font-size: 60px;
+    }
+    .text{
+        height: 30vh;
     }
     .text> h2{
-        margin: 15px 0px;
+        margin: 20px 0px;
     }
     .boxes{
         display: grid;
         grid-template-columns: 1fr;
-        margin: 10px;
+        margin: 0px;
+        overflow: hidden;
     }
     .freq{
         width: 525px;
         height: 400px;
-        margin: 0px 15px;
+        margin: 15px;
+    }
+    .boxes .box{
+        width: 70vw;
+        padding: 30px;
     }
     
+    header{
+        height: 50vh;
+        width: 30vw;
     }
-    .question a{
+    header a{
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr 1fr 1fr ;
+        margin: 5px;
     }
     
     .foot{
         width: 100%;
         padding: 10px;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .foot> button{
+        margin: 5px;
+    }
+    .foot p {
+        padding: 5px;
+        margin: 20px;
     }
 }
