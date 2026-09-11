@@ -14,7 +14,7 @@ body {
 .main {
     background-image: url(assiets/images/PK-en-20260831-TRIFECTA-perspective_bc9a7950-8249-46a3-98ef-0d84d7eb0abf_large.jpg);
     width: 100vw;
-    max-width: 1500px;
+    max-width: 1800px;
     height: 80vh;
     /* background-position: center center; */
     background-size: cover;
@@ -24,7 +24,7 @@ body {
 .main .box {
     background-color: #010101;
     opacity: 0.44;
-    max-width: 1500px;
+    max-width: 1800px;
     width: 100Vw;
     height: 80vh;
     position: absolute;
