@@ -672,7 +672,8 @@ footer>h2 {
     
     .img-box {
         width: 90%;
-    
+        height: 90%;
+        /* background-color: rgba(216, 8, 8, 0.5); */
         padding: 15px 20px;
     }
     
@@ -829,23 +830,33 @@ footer>h2 {
     
     .img-box {
         width: 100%;
+        height: 90%;
+        /* background-color: red; */
     
-        padding: 15px 30px;
+        padding: 5px ;
     
-        gap: 20px;
-    
-        justify-content: flex-start;
+        /* gap: 20px; */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
     
     .img-box .movie-img {
-        flex: 0 0 130px;
-    
-        width: 130px;
-        height: 190px;
+        
+        
+        width: 50px;
+        height: 80px;
+        gap: 1px;
+        background-color: gainsboro;
+    }
+    .movie-img img {
+        width: 80px;
+        height: 140px;
+        object-fit: fill;
     }
     
     .movie-img .number {
-        left: -14px;
+        left: -15px;
+        top: 100px;
         bottom: -4px;
     
         font-size: 55px;
@@ -953,7 +964,11 @@ footer>h2 {
     ===================================================== */
     
     @media screen and (max-width: 350px) {
-    
+    .main > .box {
+        width: 100%;
+        height: 70vh;
+        min-height: 500px;
+    }
     .hero > :nth-child(1) {
         font-size: 26px;
     }
@@ -969,24 +984,79 @@ footer>h2 {
     .img-box .movie-img {
         flex-basis: 115px;
     
-        width: 115px;
-        height: 170px;
+        width: 80px;
+        height: 140px;
+    }
+    .img-box> svg {
+        width: 60px;
+        height: 100px;
+        background-color: rgba(17, 16, 16, 0.66);
+        color: aliceblue;
+        margin-top: 50px;
     }
     
     .movie-img .number {
         font-size: 48px;
+        top: 80px;
     }
-    
+    section.text{
+        width: 90%;
+        height: 100%;
+        /* background-color: red; */
+    }
+    .boxes {
+        gap: 10px;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .boxes .box {
+        width: 210px;
+        height: 60px;
+    }
     .freq .cost {
         font-size: 14px;
     }
-    
+    footer{
+        width: 90%;
+        height: 330px;
+        margin: 0px auto;
+        
+        /* background-color: red; */
+    }
+    footer>h2{
+        font-size: 14px;
+    }
+    footer .question a{
+        font-size: 12px;
+        
+    }
+    footer .foot>button{
+        width: 100px;
+        height: 30px;
+    }
+    footer .foot>p{
+        font-size: 10px;
+    }
+    footer .foot> :nth-child(2){
+        font-size: 10px;
+    }
+    footer .foot> :nth-child(3){
+        font-size: 10px;
+    }
     .question {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        display: grid;
     }
     .input input{
         width: 80%;
         height: 30px;
     }
+    .foot{
+        width: 90%;
+        height: 200px;
+        margin: 0px auto;
     
     }
+}
