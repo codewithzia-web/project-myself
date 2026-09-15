@@ -830,7 +830,7 @@ footer>h2 {
     
     .img-box {
         width: 100%;
-        height: 90%;
+        height:390px;
         /* background-color: red; */
     
         padding: 5px ;
@@ -842,21 +842,21 @@ footer>h2 {
     
     .img-box .movie-img {
         
-        
-        width: 50px;
-        height: 80px;
+        margin: 5px auto;       
+        width: 100px;
+        height: 140px;
         gap: 1px;
-        background-color: gainsboro;
+        /* background-color: gainsboro; */
     }
     .movie-img img {
-        width: 80px;
+        width: 100px;
         height: 140px;
         object-fit: fill;
     }
     
     .movie-img .number {
         left: -15px;
-        top: 100px;
+        top: 80px;
         bottom: -4px;
     
         font-size: 55px;
@@ -866,7 +866,8 @@ footer>h2 {
     
     .text {
         width: 90%;
-    
+        /* background-color: red; */
+        height: 100%;
         margin: 40px auto;
     }
     
@@ -876,13 +877,15 @@ footer>h2 {
     
     .boxes {
         grid-template-columns: 1fr;
-    
+        display: grid;
+        height: 100%;
+        width: 100%;
         gap: 12px;
     }
     
     .text .box {
-        width: 100%;
-        min-height: 180px;
+        width: 70%;
+        height: 110px;
     
         padding: 20px;
     }
@@ -926,6 +929,9 @@ footer>h2 {
     
     footer {
         margin-top: 45px;
+        height: 300px;
+        width: 90%;
+        /* background-color: orange; */
     }
     
     footer > h2 {
@@ -944,6 +950,7 @@ footer>h2 {
     
     .foot {
         padding-top: 15px;
+        height: 200px;
     }
     
     .foot > button {
@@ -954,6 +961,7 @@ footer>h2 {
     .foot > p {
         font-size: 12px;
         line-height: 1.5;
+        margin: 5px 0;
     }
     
     }
